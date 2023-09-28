@@ -1,0 +1,2 @@
+Comportamiento incorrecto de los botones “Aceptar”, “Agregar
+a carrito” y “Ver Carrito”.

@@ -1,0 +1,23 @@
+ETAPA I
+
+Rol: Tester, para así probar el software a ver si funciona correctamente. Detectar los errores y comunicarlos.
+
+2.a. El repositorio fue creado por Agustín Mesas mediante los códigos siguientes: -$git init -$git remote add origin <link>
+ -$git branch -M main -$git add . -$git commit -m "mensaje" -$git push -u origin main
+2.b. Publica el repositorio en GitHub ingresando a la página, clickea en New, luego le asigna un nombre, hace que sea público así los demás integrantes pueden verlo y clonarlo en sus máquinas para luego trabajar en el, finalmente Crea repositorio
+2.d. Para clonar el repo en su máquina debe hacer  dentro de la carpeta en la cual quiera tener el clon del repo, Git Bash here, y escribir $git clone <link del repositorio>
+
+3. Dentro de la carpeta donde está el repo, Git Bash here, -$git branch testing, -$git checkout testing; o para crear y al mismo tiempo cambiar de rama -$git checkout -b testing
+
+4. Siendo el tester hago diferentes commits para comentar errores de funcionamiento y que sean solucionados.
+*Hago comentario sobre modificación en archivo1, -$git add archivo1.txt -$git commit -m "Problemas de navegabilidad"
+*Reporto sobre faltas de ortografía en textos front-end, -$git add archivo2.txt -$git commit -m "Faltas de ortografía en textos front-end"
+*Reporto comportamiento incorrecto de los botones "Aceptar", "Agregar a carrito" y "Ver carrito", -$git add archivo3.txt -$git commit -m "Comportamiento incorrecto de botones "Aceptar, Agregar a carrito y Ver carrito"
+
+5. -$git log, o para mas resumido -$git log --oneline
+
+6. -$git checkout main para cambiar a la rama principal y luego -$git merge testing
+
+7. Luego de modificar archivo2.txt, por ejemplo, -$git checkout main para asegurarse de estar dentro de la rama principal -$git add archivo2.txt -$git commit -m "archivo2 modificado"
+
+8. -$git checkout main -$git reset --soft HEAD~3

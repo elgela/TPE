@@ -1,0 +1,1 @@
+Resolver problemas de navegabilidad de una página a la otra.
