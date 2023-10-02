@@ -2,9 +2,7 @@ ETAPA I
 
 Rol: Tester, para así probar el software a ver si funciona correctamente. Detectar los errores y comunicarlos.
 
-2.a. El repositorio fue creado por Agustín Mesas mediante los códigos siguientes: -$git init -$git remote add origin <link>
- -$git branch -M main -$git add . -$git commit -m "mensaje" -$git push -u origin main
-  El repositorio fue creado por Agustín Mesas: -$git init -$git branch -M (para cambiar el nombre de la rama master a main), se crean los archivos dentro de la carpeta y se agregan, -$git add archivo1.txt (que es el archivo que se creó, vacío) -git commit -m "archivo1.txt agregado", se crea un nuevo archivo y se agrega: -git add archivo2.txt -git commit -m "archivo2.txt agregado", se crea un tercer archivo nuevo vacío y se agrega -git add archivo3.txt -git commit-m "archivo3.txt agregado"
+2.a. El repositorio fue creado por Agustín Mesas: -$git init -$git branch -M (para cambiar el nombre de la rama master a main), se crean los archivos dentro de la carpeta y se agregan, -$git add archivo1.txt (que es el archivo que se creó, vacío) -git commit -m "archivo1.txt agregado", se crea un nuevo archivo y se agrega: -git add archivo2.txt -git commit -m "archivo2.txt agregado", se crea un tercer archivo nuevo vacío y se agrega -git add archivo3.txt -git commit-m "archivo3.txt agregado"
 
 2.b. Publica el repositorio en GitHub ingresando a la página, clickea en New, luego le asigna un nombre, hace que sea público así los demás integrantes pueden verlo y trabajar en el, finalmente Crea repositorio. En GitBash pone el código -$git remote add origin <link copiado en la página> y -$git push -u origin main (así queda publicado)
 
@@ -24,3 +22,17 @@ Rol: Tester, para así probar el software a ver si funciona correctamente. Detec
 7. Luego de modificar archivo2.txt, por ejemplo, -$git checkout main para asegurarse de estar dentro de la rama principal -$git add archivo2.txt -$git commit -m "archivo2 modificado"
 
 8. -$git checkout main -$git reset --soft HEAD~3
+
+ETAPA II
+
+1. Git Bash here dentro de la carpeta donde está el repositorio compartido y hacer -$git pull
+
+2. Después de realizar cambios ejecutar los commandos -$git add <nombre del archivo modificado> o git add . -$git commit -m "modificaciones" -$git push
+
+3. Ubicado en la carpeta donde se quiere crear el nuevo archivo ejecutar el comando -$touch archivo4.txt -$git commit -m "archivo4.txt agregado"
+
+4. -$touch informacion.txt -git commit -m "archivo de información agregado"
+
+5. -$nano informacion.txt, se agregan 2 nuevas líneas, -$git commit -m "Dos nuevas líneas agregadas"
+
+6. -$git reset --hard HEAD~[n]
